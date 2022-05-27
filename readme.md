@@ -15,11 +15,12 @@ You must create your `config.ini` file. This file contains information about whe
 ```
 create_config({
     "open_add_offer_window": "1663 106",
-    "close_offer_window": "1526 112",
-    "place_offer": "1240 1086",
-    "add_to_price_list": "1483 589",
+    "close_offer_window": "1498 110",
+    "place_offer": "1220 1080",
+    "add_to_price_list": "1453 583",
     "currency_input": "1333 262",
-    "add_price": "1273 1196"
+    "add_price": "1273 1196",
+    "currency_dropdown": "1495 261"
 })
 ```
 

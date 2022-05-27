@@ -11,7 +11,7 @@ IMAGE_PATH = '{0}.png'.format(IMAGE_NAME)
 lowest_price_width_factor = 7
 lowest_price_height_factor = 10
 
-def get_lowest_price(add_offer_pos, debug = False):
+def get_lowest_price(add_offer_pos, debug = True):
     # get screensize
     x2,y2 = pyautogui.size()
     x2,y2=int(str(x2)),int(str(y2))

@@ -24,6 +24,9 @@ def sell_items(item_positions):
     click_at_location(mouse, config['close_offer_window'])
     time.sleep(0.25)
     for position in item_positions:
+        # wait until you can place an offer
+        # TODO
+
         # click on 'add offer'
         click_at_location(mouse,config['open_add_offer_window'])
         print("open offer window")
@@ -64,9 +67,6 @@ def sell_items(item_positions):
             time.sleep(0.1)
 
             click_at_location(mouse, config['add_price'])
-
-            time.sleep(5)
-
             click_at_location(mouse, config['place_offer'])
 
     click_at_location(mouse, config['close_offer_window'])
