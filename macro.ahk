@@ -13,5 +13,5 @@ MsgBox, The cursor is at X%xpos% Y%ypos%.
 return
 
 ^d::
-Run, %ComSpec% /k %venv% "%script%",, Hide
+Run, %ComSpec% /k %venv% "%script%",, Min
 return

@@ -24,3 +24,6 @@ class MouseTracker:
 # gets user clicks until the user right clicks or scrolls
 def get_mouse_positions():
     return MouseTracker().get_clicks()
+
+def create_nonblock_listener(on_scroll):
+    return mouse.Listener(on_scroll=on_scroll)
