@@ -1,3 +1,7 @@
+# Summary
+
+This script helps you automatically sell items on the marketplace in Escape from Tarkov
+
 # Pre-requisites
 
 - Install Python3.8
